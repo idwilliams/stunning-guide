@@ -12,7 +12,7 @@ public sealed class MpscRingBuffer<T> where T : class
         public long Sequence;
         
         // Cache-line padding (assuming 64-byte cache lines)
-        private readonly long _p1, _p2, _p3, _p4, _p5, _p6;
+        private readonly long _padding1, _padding2, _padding3, _padding4, _padding5, _padding6;
     }
 
     private readonly Slot[] _buffer;

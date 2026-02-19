@@ -23,7 +23,7 @@ public readonly unsafe struct NativeBlock : IDisposable
 
     public void Dispose()
     {
-        if (_pointer != null)
+        if (_pointer != default)
         {
             NativeMemory.Free(_pointer);
         }
