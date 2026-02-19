@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Substrate.Core\Substrate.Core.csproj" />
+    <ProjectReference Include="..\Substrate.Telemetry\Substrate.Telemetry.csproj" />
+    <ProjectReference Include="..\Substrate.Concurrency\Substrate.Concurrency.csproj" />
+    <ProjectReference Include="..\Substrate.Collections\Substrate.Collections.csproj" />
+    <ProjectReference Include="..\Substrate.Memory\Substrate.Memory.csproj" />
+    <ProjectReference Include="..\Substrate.Compute\Substrate.Compute.csproj" />
+  </ItemGroup>
+</Project>

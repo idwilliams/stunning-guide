@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Substrate.Core\Substrate.Core.csproj" />
+    <ProjectReference Include="..\Substrate.Telemetry\Substrate.Telemetry.csproj" />
+    <ProjectReference Include="..\Substrate.Concurrency\Substrate.Concurrency.csproj" />
+  </ItemGroup>
+</Project>
