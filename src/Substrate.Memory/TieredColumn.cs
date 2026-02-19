@@ -15,9 +15,11 @@ public sealed class TieredColumn<T> : IDisposable
     }
 
     private Column<T> _hot;
+    // Reserved for future compressed tier implementation
 #pragma warning disable CS0169 // Field is never used - reserved for future tier implementation
     private byte[]? _compressed;
 #pragma warning restore CS0169
+    // Reserved for future disk tier implementation
 #pragma warning disable CS0649 // Field is never assigned - reserved for future tier implementation
     private string? _diskPath;
 #pragma warning restore CS0649
