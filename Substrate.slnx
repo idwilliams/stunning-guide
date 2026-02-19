@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/Substrate.Examples/Substrate.Examples.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Substrate.Collections/Substrate.Collections.csproj" />
+    <Project Path="src/Substrate.Compute/Substrate.Compute.csproj" />
+    <Project Path="src/Substrate.Concurrency/Substrate.Concurrency.csproj" />
+    <Project Path="src/Substrate.Core/Substrate.Core.csproj" />
+    <Project Path="src/Substrate.Engine/Substrate.Engine.csproj" />
+    <Project Path="src/Substrate.Memory/Substrate.Memory.csproj" />
+    <Project Path="src/Substrate.Migration/Substrate.Migration.csproj" />
+    <Project Path="src/Substrate.Telemetry/Substrate.Telemetry.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Substrate.Tests/Substrate.Tests.csproj" />
+  </Folder>
+</Solution>
